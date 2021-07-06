@@ -1,0 +1,41 @@
+.manager-home{
+    display: flex;
+}
+
+.left-col{
+    width:20%;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0, 0.3);
+    min-height: 100vh;
+}
+
+.right-col{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.manager-section{
+    padding: 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.header button{
+    width: 180px;
+}
+
+
+
